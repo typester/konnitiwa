@@ -1,4 +1,4 @@
-steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, MakeDist, UploadGitHub
+steps = FindVersion, ChangeVersion, CheckChangeLog, DistTest, Commit, Tag, MakeDist, UploadGitHub
 
 git.tagpattern = %v
 git.push_to    = origin
